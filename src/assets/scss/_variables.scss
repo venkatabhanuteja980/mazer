@@ -95,8 +95,8 @@ $btn-colors: (
 //
 // Settings for the `<body>` element.
 
-$body-bg: #f2f7ff !default;
-$body-color: #607080 !default;
+$body-bg: #f4f7f5 !default;
+$body-color: #2e3d3b !default;
 $body-text-align: null !default;
 
 // Bootstrap Variables
@@ -128,14 +128,14 @@ $grays: (
 ) !default;
 // fusv-enable
 
-$blue:    #435ebe !default;
+$blue:    #2f5d50 !default; 
 $indigo:  #6610f2 !default;
 $purple:  #6f42c1 !default;
 $pink:    #d63384 !default;
 $red:     #dc3545 !default;
 $orange:  #fd7e14 !default;
 $yellow:  #ffc107 !default;
-$green:   #198754 !default;
+$green:   #3a7d44 !default; 
 $teal:    #20c997 !default;
 $cyan:    #0dcaf0 !default;
 
@@ -169,10 +169,10 @@ $dark:          $body-bg;
 
 // Mazer Variables
 
-$sidebar-bg: #fff !default;
-$sidebar-link-color: #25396f !default;
-$sidebar-link-hover-bg:         rgb(240, 241, 245) !default;
-$sidebar-link-hover-color:      #25396f !default;
+$sidebar-bg: #1f2d2b !default;        // Dark forest
+$sidebar-link-color: #e4f1ed !default;
+$sidebar-link-hover-bg: #2f5d50 !default;
+$sidebar-link-hover-color: #ffffff !default;
 $sidebar-submenu-color:         $sidebar-link-color !default;
 $sidebar-submenu-hover-color:   $primary !default;
 
@@ -643,7 +643,7 @@ $headings-font-family:        null !default;
 $headings-font-style:         null !default;
 $headings-font-weight:        700 !default;
 $headings-line-height:        1.2 !default;
-$headings-color:              #25396f !default;
+$headings-color:              #1f2d2b !default;
 
 // scss-docs-start display-headings
 $display-font-sizes: (
